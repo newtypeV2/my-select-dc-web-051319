@@ -1,7 +1,7 @@
 def my_select(collection)
  # your code here!
  counter = 0
- newArray
+ newArray = []
  while counter<collection.length
   if yield(collection[counter])==true
   newArray<< collection[counter]
